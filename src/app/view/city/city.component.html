@@ -1,0 +1,26 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="listar">
+      <h2>Lista de States</h2>
+    
+      <table class="table table-striped" *ngIf="cities">
+        <thead>
+          <th scope="col">Id</th>
+          <th scope="col">NAME</th>
+          <th scope="col">UF</th>
+          <th scope="col">IBGE</th>
+        </thead>
+    
+        <tbody>
+          <tr *ngFor="let item of cities">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.uf}}</td>
+            <td>{{item.ibge}}</td>
+          </tr>
+        </tbody>
+      </table>
+
+  </div>
+</div>

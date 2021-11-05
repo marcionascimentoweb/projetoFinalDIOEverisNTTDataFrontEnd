@@ -1,0 +1,77 @@
+
+.container-fluid{
+    background-image: linear-gradient(#022d41, #003c5a);
+    font-family: 'Verdana', Times, serif;
+    color:aqua;
+}
+
+.container{
+height: 80px;
+background-image: linear-gradient(#022d41, #003c5a);
+margin: 0 auto;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px; 
+    }
+
+a{
+    text-decoration: none;
+    color: #38aece;
+}
+
+a:hover {
+    color: white;
+}
+
+.topo{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+ align-items: center;
+ 
+ }
+
+ .logomarca{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+ .logo{
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    padding: 3px;
+     
+ }
+
+.lista{
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.bi {
+    margin-right: 5px;
+    color: #38aece;
+}
+
+@media (max-width: 739px){
+
+
+  .logomarca{
+      display: none;
+  }
+
+  ul {
+    text-align: center;
+    padding: 10px;
+      
+  }
+}
+
